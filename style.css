@@ -1,0 +1,129 @@
+body{ 
+background-color:ghostwhite;
+}
+
+
+h1{ 
+text-align: center; 
+color: black;
+}
+
+h3{
+	text-align: center;
+	color: black;
+}
+
+h2{ 
+text-align:center;
+color: grey;
+font-style: italic;
+justify-content: center;
+font-family: serif;
+ }
+
+ h4{ color: gray;
+ font-size: 12px;
+ margin-top: 5px; 
+text-align: left;}
+
+p{
+text-align: justify;
+vertical-align: baseline;
+font-size: 25px;
+margin: 100px;
+margin-bottom: 20px;
+margin-top: 30px;
+color: black;
+line-height: 35px;
+}
+
+
+.flex-container{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	flex-direction: row;
+}
+
+
+.flex-container > div{
+	display: flex;
+	background-color: white;
+	width: 350px;
+	margin: 100px;
+	margin-top: 5px;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	text-indent: inherit;
+
+}
+
+
+.flex-container1 > div{
+	display:flex;
+	margin: 100px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	text-indent: inherit;
+	justify-content: inherit;
+}
+
+
+
+.picture{ 
+display: flex;
+width: 600px;
+margin-left: 10px;
+
+}
+
+.picture1{ 
+justify-content: center; 
+text-align: justify-all;
+justify-items: center;
+position: center;
+margin-bottom: 10px;
+object-fit: cover;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 50px;} 
+
+  img{
+  	opacity: .5;
+  }
+
+.desktop{
+	display: block;
+}
+
+.mobile{ 
+	display: none;
+ }
+
+ @media (max-width: 480px) 
+ {
+.desktop {
+display: none;
+}
+
+.mobile {
+display: block;
+}
+
+
+}
